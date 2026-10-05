@@ -8,3 +8,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+backend/uploads/resumes/*
+!backend/uploads/resumes/.gitkeep
+python-service/.venv/
+frontend/dist/
+__pycache__/
+*.pyc
