@@ -1,0 +1,3 @@
+-- Phase 2 placeholder.
+-- The production schema, RLS policies, storage policies and tenant isolation
+-- should be implemented when SmartPlacify moves from Phase 1 UI to Supabase.
