@@ -19,6 +19,16 @@ npm install
 npm run start
 ```
 
+## Static Website
+
+A no-dependency desktop/mobile website dashboard is available in `website/`.
+
+Open `website/index.html` directly in a browser, or serve it with:
+
+```bash
+python3 -m http.server 8000 --directory website
+```
+
 ## Test
 
 ```bash

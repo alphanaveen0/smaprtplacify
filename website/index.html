@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SmartPlacify Dashboard</title>
+    <meta
+      name="description"
+      content="SmartPlacify placement management dashboard for students, companies, TPO teams, and super admins."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Primary navigation">
+        <a class="brand" href="#">
+          <span class="brand-mark">S</span>
+          <span>
+            <strong>SmartPlacify</strong>
+            <small>Smarter Placements. Brighter Futures.</small>
+          </span>
+        </a>
+
+        <nav class="nav-list">
+          <a class="active" href="#"><span>⌂</span> Dashboard</a>
+          <a href="#students"><span>♙</span> Students</a>
+          <a href="#companies"><span>▦</span> Companies</a>
+          <a href="#jobs"><span>◇</span> Jobs</a>
+          <a href="#applications"><span>▤</span> Applications</a>
+          <a href="#interviews"><span>◎</span> Interviews</a>
+          <a href="#analytics"><span>⌁</span> Analytics</a>
+          <a href="#ai"><span>✦</span> AI Assistant</a>
+          <a href="#reports"><span>◷</span> Reports</a>
+          <a href="#settings"><span>⚙</span> Settings</a>
+        </nav>
+
+        <section class="side-card">
+          <div class="mini-mountains" aria-hidden="true"></div>
+          <strong>Better Placements Through Smarter Tech</strong>
+          <button aria-label="Explore placement technology">→</button>
+        </section>
+
+        <section class="profile-card">
+          <span class="avatar">DA</span>
+          <span>
+            <strong>Dr. Anjali Sharma</strong>
+            <small>TPO · Gurugram University</small>
+          </span>
+        </section>
+      </aside>
+
+      <main class="dashboard">
+        <header class="topbar">
+          <label class="search">
+            <span>⌕</span>
+            <input type="search" placeholder="Search students, companies, jobs..." />
+            <kbd>⌘ K</kbd>
+          </label>
+          <div class="top-actions">
+            <button aria-label="Notifications">♢<sup>3</sup></button>
+            <button aria-label="Theme">☼</button>
+            <button class="user-pill">DA</button>
+          </div>
+        </header>
+
+        <section class="hero-panel">
+          <div>
+            <h1>Good Morning, Dr. Anjali Sharma 👋</h1>
+            <p>Here’s what’s happening with your placement drive today.</p>
+          </div>
+          <div class="season-card">
+            <span>▣</span>
+            <strong>Placement Season 2026 - 27</strong>
+            <small>Gurugram University</small>
+          </div>
+        </section>
+
+        <section class="kpi-grid" aria-label="Placement KPIs">
+          <article class="kpi-card purple">
+            <span class="icon">👥</span>
+            <div>
+              <small>Total Students</small>
+              <strong>1,248</strong>
+              <em>↑ 12% vs. last month</em>
+            </div>
+          </article>
+          <article class="kpi-card green">
+            <span class="icon">♙</span>
+            <div>
+              <small>Eligible Students</small>
+              <strong>684</strong>
+              <em>↑ 18% vs. last month</em>
+            </div>
+          </article>
+          <article class="kpi-card violet">
+            <span class="icon">✈</span>
+            <div>
+              <small>Applications</small>
+              <strong>426</strong>
+              <em>↑ 22% vs. last month</em>
+            </div>
+          </article>
+          <article class="kpi-card blue">
+            <span class="icon">▥</span>
+            <div>
+              <small>Companies</small>
+              <strong>42</strong>
+              <em>↑ 8% vs. last month</em>
+            </div>
+          </article>
+          <article class="kpi-card orange">
+            <span class="icon">🏆</span>
+            <div>
+              <small>Placed Students</small>
+              <strong>187</strong>
+              <em>↑ 15% vs. last month</em>
+            </div>
+          </article>
+        </section>
+
+        <section class="content-grid">
+          <article class="panel wide">
+            <div class="panel-head">
+              <h2>Placement Overview</h2>
+              <div class="segmented">
+                <button class="selected">Applications</button>
+                <button>Shortlisted</button>
+                <button>Interviews</button>
+                <button>Selected</button>
+              </div>
+            </div>
+            <div class="line-chart" aria-label="Applications chart">
+              <span style="height: 18%"></span>
+              <span style="height: 38%"></span>
+              <span style="height: 45%"></span>
+              <span style="height: 58%"></span>
+              <span style="height: 64%"></span>
+              <span style="height: 72%"></span>
+              <span style="height: 70%"></span>
+              <span style="height: 92%"></span>
+            </div>
+            <div class="months"><span>Aug</span><span>Sep</span><span>Oct</span><span>Nov</span><span>Dec</span><span>Jan</span><span>Feb</span><span>Mar</span></div>
+          </article>
+
+          <article class="panel rate-panel">
+            <h2>Placement Rate</h2>
+            <div class="rate-ring"><strong>67%</strong><small>187 / 1,248</small></div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-head">
+              <h2>Live Placement Drives</h2>
+              <a href="#jobs">View All</a>
+            </div>
+            <div class="drive-list">
+              <div><span class="logo google">G</span><p><strong>Google</strong><small>SDE Intern · 142 Eligible</small></p><em>Live</em></div>
+              <div><span class="logo">TCS</span><p><strong>TCS</strong><small>Trainee Engineer · 134 Eligible</small></p><em>Live</em></div>
+              <div><span class="logo">In</span><p><strong>Infosys</strong><small>System Engineer · 96 Eligible</small></p><em>Live</em></div>
+              <div><span class="logo microsoft">M</span><p><strong>Microsoft</strong><small>Software Developer · 82 Eligible</small></p><em class="upcoming">Upcoming</em></div>
+            </div>
+          </article>
+
+          <article class="panel ai-panel">
+            <span class="bot">✦</span>
+            <div>
+              <h2>Ask SmartPlacify AI <mark>Beta</mark></h2>
+              <p>Get instant insights, answer queries, and make smarter placement decisions.</p>
+              <label>
+                <input placeholder="Ask anything... e.g. Which students are eligible?" />
+                <button aria-label="Ask AI">→</button>
+              </label>
+              <div class="chips"><button>Find eligible students</button><button>Skill gap analysis</button><button>ATS tips</button></div>
+            </div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-head">
+              <h2>Recent Activity</h2>
+              <a href="#activity">View All</a>
+            </div>
+            <ul class="activity-list">
+              <li><span class="green-dot">✓</span><p>New job posted by Google<small>SDE Intern · 2 hours ago</small></p></li>
+              <li><span class="amber-dot">!</span><p>142 students marked eligible<small>For Microsoft drive · 3 hours ago</small></p></li>
+              <li><span class="violet-dot">▣</span><p>Interview scheduled for 12 students<small>TCS · 5 hours ago</small></p></li>
+              <li><span class="pink-dot">+</span><p>New application received<small>From Rahul Verma · 6 hours ago</small></p></li>
+            </ul>
+          </article>
+
+          <article class="panel skills-panel">
+            <div class="panel-head">
+              <h2>Top Skills in Demand</h2>
+              <a href="#analytics">View All</a>
+            </div>
+            <div class="skill-row"><span>Python</span><b style="width: 92%"></b><em>92%</em></div>
+            <div class="skill-row"><span>SQL</span><b style="width: 81%"></b><em>81%</em></div>
+            <div class="skill-row"><span>Java</span><b style="width: 64%"></b><em>64%</em></div>
+            <div class="skill-row"><span>React</span><b style="width: 58%"></b><em>58%</em></div>
+            <div class="skill-row"><span>Communication</span><b style="width: 42%"></b><em>42%</em></div>
+          </article>
+
+          <article class="panel quick-panel">
+            <h2>Quick Actions</h2>
+            <button class="qa purple">⊕ Create Job</button>
+            <button class="qa blue">👥 View All Students</button>
+            <button class="qa green">▧ Generate Report</button>
+            <button class="qa orange">✈ Send Notifications</button>
+          </article>
+
+          <article class="panel wide interviews">
+            <div class="panel-head">
+              <h2>Upcoming Interviews</h2>
+              <a href="#interviews">View All</a>
+            </div>
+            <div class="table-row head"><span>Student</span><span>Company</span><span>Date & Time</span><span>Mode</span><span>Status</span></div>
+            <div class="table-row"><span>Rahul Sharma</span><span>TCS</span><span>12 Oct, 10:00 AM</span><span>Online</span><em>Scheduled</em></div>
+            <div class="table-row"><span>Sneha Gupta</span><span>Infosys</span><span>12 Oct, 2:00 PM</span><span>Online</span><em>Scheduled</em></div>
+            <div class="table-row"><span>Aman Yadav</span><span>Google</span><span>13 Oct, 11:30 AM</span><span>Onsite</span><em>Scheduled</em></div>
+          </article>
+
+          <article class="panel analytics-panel">
+            <div class="panel-head">
+              <h2>Placement Analytics</h2>
+              <button>This Year</button>
+            </div>
+            <div class="bar-chart">
+              <span style="--a: 72%; --b: 48%; --c: 36%"></span>
+              <span style="--a: 62%; --b: 54%; --c: 42%"></span>
+              <span style="--a: 86%; --b: 64%; --c: 50%"></span>
+              <span style="--a: 58%; --b: 46%; --c: 32%"></span>
+              <span style="--a: 76%; --b: 56%; --c: 38%"></span>
+              <span style="--a: 66%; --b: 52%; --c: 35%"></span>
+              <span style="--a: 72%; --b: 60%; --c: 44%"></span>
+              <span style="--a: 96%; --b: 68%; --c: 54%"></span>
+            </div>
+          </article>
+
+          <article class="panel story-panel">
+            <h2>Your Next Success Story Starts Here</h2>
+            <p>SmartPlacify helps you find, manage, and get the right talent for every campus drive.</p>
+            <button>Explore More</button>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
